@@ -86,9 +86,9 @@
   vars currentEpoch 16 lastVoteEpoch 15
   ```
   
- - restart this node
+- restart this node
  
- - check again:
+- check again:
  
   ```bash
   /usr/local/var/db/redis  redis-cli --cluster check 127.0.0.1:7001
